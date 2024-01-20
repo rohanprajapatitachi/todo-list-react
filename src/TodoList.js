@@ -7,7 +7,7 @@ const TodoList = ()=> {
     const addTodo = () => {
         if (newTodo.trim() !== ""){
             setTodos([...todos, newTodo]);
-            setNewTodo("");
+            setNewTodo("")
 
         }
     }
